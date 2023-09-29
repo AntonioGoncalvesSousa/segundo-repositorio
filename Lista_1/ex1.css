@@ -1,0 +1,33 @@
+.orange1{
+width: 500px;
+height: 500px;
+background-color: #ffa600;
+
+}
+
+.grenn1{
+background-color: rgb(98, 255, 98);
+width: 250px;
+height: 250px;
+}
+
+.itemD{
+width: 50%;
+height: 50%;
+background-color: rgb(103, 103, 255);
+}
+
+.textinho{
+background-color: red;
+color: white;
+font-size: 25px;
+font-family: monospace;
+font-weight: bold;
+}
+
+.itemE {
+    width: 75%;
+    height: 50%;
+    background-color: red;
+
+}
