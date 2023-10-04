@@ -105,6 +105,7 @@ body {
     height: 60px;
     width: 100%;
     background-color: blue;
+    
 }
 
 .footer .container .version {
@@ -136,6 +137,12 @@ body {
     flex-direction: column;
 }
 
+.formulario .campo {
+    display: flex;
+    flex-direction: column;
+
+}
+
 .formulario span {
     font-size: 15px;
     font-weight: 800;
@@ -152,6 +159,12 @@ body {
     flex-direction:column;
     justify-content: center;
     width: 30%;
+}
+
+.login {
+    background-image: url(assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    height: 81vh;
+    display: flex;
 }
 
 .login .container {
