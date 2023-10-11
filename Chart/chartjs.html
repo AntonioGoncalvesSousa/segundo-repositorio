@@ -8,7 +8,7 @@
 
 </head>
 <body style="display: flex; justify-content: center;">
-    <div>
+    <div> 
         <canvas id="myChart" style="position: relative; height:40vh; width:40vw"></canvas>
     </div>
     <div>
@@ -26,6 +26,14 @@
       '16:00',
       '17:00'
     ];
+    const labels2 = [
+      'Janeiro',
+      'Fevereiro',
+      'Março',
+      'Abril',
+      'Maio',
+      'Junho'
+    ];
   
     const data = {
       labels: labels,
@@ -41,7 +49,22 @@
         data: [80, 82, 80, 85, 80, 83],}
     ]
     };
-  
+    const data2 = {
+      labels: labels2,
+      datasets: [{
+        label: 'Temperatura Média',
+        backgroundColor: 'rgb(255, 0, 0)',
+        borderColor: 'rgb(255, 0, 0 )',
+        data: [22, 24, 27, 23, 20,18 ],
+      },
+      {label: 'Umidade Média',
+        backgroundColor: 'rgb(0, 0, 255)',
+        borderColor: 'rgb(0, 0, 255 )',
+        data: [90, 89, 93, 87, 88, 82],}
+    ]
+    };
+
+
     const config = {
       type: 'line',
       data: data,
@@ -49,7 +72,7 @@
     };
     const config2 = {
       type: 'bar',
-      data: data,
+      data: data2,
       options: {}
     };
   </script>
